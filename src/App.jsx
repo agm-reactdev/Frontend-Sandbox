@@ -3,6 +3,7 @@ import Youtubetoggleicon from './Components/Youtubesidebarfeature/Youtubetogglei
 import Youtubenotificationtoggle from './Components/Youtubenotificationpopup/Youtubenotificationtoggle';
 import Homepage from './Components/Homepage/Homepage';
 import Hovertoggle from './Components/Hoverpopup/Hovertoggle';
+import Carusalbuttons from './Components/Amazonbannarcarusal/Carusalbuttons';
 
 
 function App() {
@@ -15,8 +16,8 @@ function App() {
         <Route path='/' element={<Homepage/>} />
         <Route path="/youtubesidebar" element={<Youtubetoggleicon />} />
         <Route path='/youtubepopup' element={<Youtubenotificationtoggle/>} />
-         <Route path='/hovertoggle' element={<Hovertoggle/>} />
-       
+        <Route path='/hovertoggle' element={<Hovertoggle/>} />
+        <Route path='/carusalbuttons' element={<Carusalbuttons/>} />
       </Routes>
     </div>
     
