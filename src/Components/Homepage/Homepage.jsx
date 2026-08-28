@@ -15,6 +15,7 @@ function Homepage() {
             <Link to="/youtubepopup"><bUtton className="bg-green-300 px-4 py-2 rounded-xl cursor-pointer ">Youtube Notification</bUtton></Link>
             <Link to="/hovertoggle"><button className="bg-green-300 px-4 py-2 rounded-xl cursor-pointer">Hover Popup</button></Link>
             <Link to="/carusalbuttons"><button className="bg-green-300 px-4 py-2 rounded-xl cursor-pointer">Amazon Carousal</button></Link>
+              <Link to="/loadingcricle"><button className="bg-green-300 px-4 py-2 rounded-xl cursor-pointer">Loading Circle</button></Link>
         </div>
         </div>
     )

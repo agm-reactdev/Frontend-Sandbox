@@ -4,6 +4,7 @@ import Youtubenotificationtoggle from './Components/Youtubenotificationpopup/You
 import Homepage from './Components/Homepage/Homepage';
 import Hovertoggle from './Components/Hoverpopup/Hovertoggle';
 import Carusalbuttons from './Components/Amazonbannarcarusal/Carusalbuttons';
+import Loadingcircle from './Components/Loadingcircle/Loadingcircle';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path='/youtubepopup' element={<Youtubenotificationtoggle/>} />
         <Route path='/hovertoggle' element={<Hovertoggle/>} />
         <Route path='/carusalbuttons' element={<Carusalbuttons/>} />
+         <Route path='/loadingcricle' element={<Loadingcircle/>} />
       </Routes>
     </div>
     
