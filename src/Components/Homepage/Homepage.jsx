@@ -42,6 +42,7 @@ function Homepage() {
           </button>
         </Link>
       </div>
+
       <div>
          <Link to="/looptextanimate">
           <bUtton className="bg-green-300 px-4 py-2 rounded-xl cursor-pointer ">
@@ -49,7 +50,15 @@ function Homepage() {
           </bUtton>
         </Link>
       </div>
-    </div>
+       
+       <div className="flex gap-4 mt-6">
+           <a className=" border border-green-400 rounded-xl  px-4 py-1" href="https://github.com/agm-reactdev/Frontend-Sandbox.git">Github</a>
+          <a className=" border border-green-400 rounded-xl px-4 py-1" href="https://www.linkedin.com/in/abdul-ghaffar-ba32073a2/">Linkdin</a>
+     
+       </div>
+         
+      </div>
+   
   );
 }
 
