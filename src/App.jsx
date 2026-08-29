@@ -5,6 +5,7 @@ import Homepage from './Components/Homepage/Homepage';
 import Hovertoggle from './Components/Hoverpopup/Hovertoggle';
 import Carusalbuttons from './Components/Amazonbannarcarusal/Carusalbuttons';
 import Loadingcircle from './Components/Loadingcircle/Loadingcircle';
+import Themetoggle from './Components/Themechange/Themetoggle';
 
 
 
@@ -22,6 +23,7 @@ function App() {
         <Route path='/hovertoggle' element={<Hovertoggle/>} />
         <Route path='/carusalbuttons' element={<Carusalbuttons/>} />
          <Route path='/loadingcricle' element={<Loadingcircle/>} />
+         <Route path='/themetoggle' element={<Themetoggle/>} />
       </Routes>
     </div>
     
