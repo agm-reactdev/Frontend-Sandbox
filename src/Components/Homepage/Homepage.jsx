@@ -42,6 +42,13 @@ function Homepage() {
           </button>
         </Link>
       </div>
+      <div>
+         <Link to="/looptextanimate">
+          <bUtton className="bg-green-300 px-4 py-2 rounded-xl cursor-pointer ">
+            Text animate
+          </bUtton>
+        </Link>
+      </div>
     </div>
   );
 }
