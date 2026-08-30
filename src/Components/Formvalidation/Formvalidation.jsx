@@ -40,13 +40,13 @@ const handleSubmit = (e) => {
     }
 
     if (isValid) {
-      alert('Form Successfully Submitted!');
+      alert('Form Successfully Submitted!' + name  + email);
     }
   };
 
   return (
     <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow border border-slate-200 mt-50">
-
+        
         <h1 className='text-3xl text-center mb-4 mt-4'>Register Form</h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         {/* Name Input */}
