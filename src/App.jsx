@@ -8,6 +8,7 @@ import Loadingcircle from './Components/Loadingcircle/Loadingcircle';
 import Themetoggle from './Components/Themechange/Themetoggle';
 import Looptextanimate from './Components/Looptextanimate/Looptextanimate';
 import Dynamicapicard from './Components/DynamicApicard/Dynamicapicard';
+import Faqqustion from './Components/Faqqusition/Faqqusition';
 
 
 
@@ -28,6 +29,7 @@ function App() {
          <Route path='/themetoggle' element={<Themetoggle/>} />
         <Route path='/looptextanimate' element={<Looptextanimate/>} />
           <Route path='/Dynamicapicard' element={<Dynamicapicard/>} />
+           <Route path='/Faqqustion' element={<Faqqustion/>} />
       </Routes>
     </div>
     

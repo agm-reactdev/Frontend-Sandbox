@@ -55,6 +55,12 @@ function Homepage() {
             Dynamic Card Rendring
           </bUtton>
         </Link>
+
+           <Link to="/Faqqustion">
+          <bUtton className="bg-green-300 px-4 py-2 rounded-xl cursor-pointer ">
+            Faq Qustions & Answers
+          </bUtton>
+        </Link>
       </div>
        
        <div className="flex gap-4 mt-6">
