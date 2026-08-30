@@ -43,10 +43,16 @@ function Homepage() {
         </Link>
       </div>
 
-      <div>
+      <div className="flex gap-4">
          <Link to="/looptextanimate">
           <bUtton className="bg-green-300 px-4 py-2 rounded-xl cursor-pointer ">
             Text animate
+          </bUtton>
+        </Link>
+
+          <Link to="/Dynamicapicard">
+          <bUtton className="bg-green-300 px-4 py-2 rounded-xl cursor-pointer ">
+            Dynamic Card Rendring
           </bUtton>
         </Link>
       </div>

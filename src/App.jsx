@@ -7,6 +7,7 @@ import Carusalbuttons from './Components/Amazonbannarcarusal/Carusalbuttons';
 import Loadingcircle from './Components/Loadingcircle/Loadingcircle';
 import Themetoggle from './Components/Themechange/Themetoggle';
 import Looptextanimate from './Components/Looptextanimate/Looptextanimate';
+import Dynamicapicard from './Components/DynamicApicard/Dynamicapicard';
 
 
 
@@ -25,7 +26,8 @@ function App() {
         <Route path='/carusalbuttons' element={<Carusalbuttons/>} />
          <Route path='/loadingcricle' element={<Loadingcircle/>} />
          <Route path='/themetoggle' element={<Themetoggle/>} />
-          <Route path='/looptextanimate' element={<Looptextanimate/>} />
+        <Route path='/looptextanimate' element={<Looptextanimate/>} />
+          <Route path='/Dynamicapicard' element={<Dynamicapicard/>} />
       </Routes>
     </div>
     
