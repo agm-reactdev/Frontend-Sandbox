@@ -40,7 +40,7 @@ const handleSubmit = (e) => {
     }
 
     if (isValid) {
-      alert('Form Successfully Submitted!: {name} : {email}');
+      alert('Form Successfully Submitted!');
     }
   };
 
