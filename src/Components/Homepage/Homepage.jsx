@@ -36,41 +36,54 @@ function Homepage() {
             Loading Circle
           </button>
         </Link>
-          <Link to="/themetoggle">
+        <Link to="/themetoggle">
           <button className="bg-green-300 px-4 py-2 rounded-xl cursor-pointer">
-           Toggle Theme
+            Toggle Theme
           </button>
         </Link>
       </div>
 
       <div className="flex gap-4">
-         <Link to="/looptextanimate">
+        <Link to="/looptextanimate">
           <bUtton className="bg-green-300 px-4 py-2 rounded-xl cursor-pointer ">
             Text animate
           </bUtton>
         </Link>
 
-          <Link to="/Dynamicapicard">
+        <Link to="/Dynamicapicard">
           <bUtton className="bg-green-300 px-4 py-2 rounded-xl cursor-pointer ">
             Dynamic Card Rendring
           </bUtton>
         </Link>
 
-           <Link to="/Faqqustion">
+        <Link to="/Faqqustion">
           <bUtton className="bg-green-300 px-4 py-2 rounded-xl cursor-pointer ">
             Faq Qustions & Answers
           </bUtton>
         </Link>
+
+        <Link to="/Formvalidation">
+          <bUtton className="bg-green-300 px-4 py-2 rounded-xl cursor-pointer ">
+            Form validate !
+          </bUtton>
+        </Link>
       </div>
-       
-       <div className="flex gap-4 mt-6">
-           <a className=" border border-green-400 rounded-xl  px-4 py-1" href="https://github.com/agm-reactdev/Frontend-Sandbox.git">Github</a>
-          <a className=" border border-green-400 rounded-xl px-4 py-1" href="https://www.linkedin.com/in/abdul-ghaffar-ba32073a2/">Linkdin</a>
-     
-       </div>
-         
+
+      <div className="flex gap-4 mt-6">
+        <a
+          className=" border border-green-400 rounded-xl  px-4 py-1"
+          href="https://github.com/agm-reactdev/Frontend-Sandbox.git"
+        >
+          Github
+        </a>
+        <a
+          className=" border border-green-400 rounded-xl px-4 py-1"
+          href="https://www.linkedin.com/in/abdul-ghaffar-ba32073a2/"
+        >
+          Linkdin
+        </a>
       </div>
-   
+    </div>
   );
 }
 
