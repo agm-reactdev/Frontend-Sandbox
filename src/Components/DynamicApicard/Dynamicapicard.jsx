@@ -181,7 +181,7 @@ function Dynamicapicard() {
     <>
       <div>
         <h1 className="text-4xl text-center mt-10 mb-10">
-          Dynamic Card Design
+          Dynamic Card Design & Render
         </h1>
       </div>
 
