@@ -74,7 +74,16 @@ function Homepage() {
           </bUtton>
         </Link>
       </div>
+         
 
+         <div>
+           
+           <Link to="/Filterdata">
+          <bUtton className="bg-green-300 px-4 py-2 rounded-xl cursor-pointer ">
+            Data Filter
+          </bUtton>
+        </Link>
+         </div>
       <div className="flex gap-4 mt-6">
         <a
           className=" border border-green-400 rounded-xl  px-4 py-1"

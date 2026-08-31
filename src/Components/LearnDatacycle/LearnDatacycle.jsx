@@ -45,7 +45,7 @@ function Learndatacycle() {
         <button
           className="border border-black rounded-xl px-4 py-1 hover:bg-purple-300"
           onClick={prev}
-          disabled={page === 1}  
+          disabled={page === 1}   
         >
           perve
         </button>

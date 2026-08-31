@@ -10,7 +10,8 @@ import Looptextanimate from './Components/Looptextanimate/Looptextanimate';
 import Dynamicapicard from './Components/DynamicApicard/Dynamicapicard';
 import Faqqustion from './Components/Faqqusition/Faqqusition';
 import Formvalidation from './Components/Formvalidation/Formvalidation';
-import Learndatacycle from './Components/LearnDatacycle';
+import Learndatacycle from './Components/LearnDatacycle/LearnDatacycle';
+import Filterdata from './Components/Filteringdata/Filterdata';
 
 
 
@@ -30,10 +31,11 @@ function App() {
          <Route path='/loadingcricle' element={<Loadingcircle/>} />
          <Route path='/themetoggle' element={<Themetoggle/>} />
         <Route path='/looptextanimate' element={<Looptextanimate/>} />
-          <Route path='/Dynamicapicard' element={<Dynamicapicard/>} />
-           <Route path='/Faqqustion' element={<Faqqustion/>} />
-           <Route path='/Formvalidation' element={<Formvalidation/>} />
-           <Route path='/Datacycle' element={<Learndatacycle/>} />
+        <Route path='/Dynamicapicard' element={<Dynamicapicard/>} />
+        <Route path='/Faqqustion' element={<Faqqustion/>} />
+        <Route path='/Formvalidation' element={<Formvalidation/>} />
+        <Route path='/Datacycle' element={<Learndatacycle/>} />
+        <Route path='/Filterdata' element={<Filterdata/>} />
 
       </Routes>
     </div>
