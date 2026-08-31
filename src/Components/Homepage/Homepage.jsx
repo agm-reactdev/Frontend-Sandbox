@@ -67,6 +67,12 @@ function Homepage() {
             Form validate !
           </bUtton>
         </Link>
+
+           <Link to="/Datacycle">
+          <bUtton className="bg-green-300 px-4 py-2 rounded-xl cursor-pointer ">
+             Data Api Pagination
+          </bUtton>
+        </Link>
       </div>
 
       <div className="flex gap-4 mt-6">

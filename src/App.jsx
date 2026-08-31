@@ -10,6 +10,7 @@ import Looptextanimate from './Components/Looptextanimate/Looptextanimate';
 import Dynamicapicard from './Components/DynamicApicard/Dynamicapicard';
 import Faqqustion from './Components/Faqqusition/Faqqusition';
 import Formvalidation from './Components/Formvalidation/Formvalidation';
+import Learndatacycle from './Components/LearnDatacycle';
 
 
 
@@ -32,6 +33,8 @@ function App() {
           <Route path='/Dynamicapicard' element={<Dynamicapicard/>} />
            <Route path='/Faqqustion' element={<Faqqustion/>} />
            <Route path='/Formvalidation' element={<Formvalidation/>} />
+           <Route path='/Datacycle' element={<Learndatacycle/>} />
+
       </Routes>
     </div>
     
